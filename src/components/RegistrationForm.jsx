@@ -41,14 +41,15 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className=''>
+    <div className=' '>
          <div className="container">
-      <div className='heading'>Registration Form</div>
+            <div >
+            <div className='heading'>Registration Form</div>
       <div className="form">
         <div className='divider'>
         <div className="form-group">
           <input
-          className='input'
+          className='input-2'
             type="text"
             name="firstName"
             value={formData.firstName}
@@ -59,7 +60,7 @@ const RegistrationForm = () => {
         </div>
         <div className="form-group">
           <input
-          className='input'
+          className='input-2'
             type="text"
             name="lastName"
             value={formData.lastName}
@@ -119,6 +120,9 @@ const RegistrationForm = () => {
         </div>
         <button className="login-button"  onClick={handleSubmit}>Submit</button>
       </div>
+
+            </div>
+     
     </div>
     <Toaster
             position="top-center"
