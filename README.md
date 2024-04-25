@@ -37,5 +37,5 @@ Upon successful form submission, the form data is logged to the console. Additio
 
 ## Live Link
 
-You can view the live demo of this Registration Form [here](https://your-live-link.com).
+You can view the live demo of this Registration Form [here](https://662acdd893e33c1e42f90044--soft-rugelach-35759f.netlify.app/).
 
